@@ -3,7 +3,7 @@ FROM runpod/worker-comfyui:5.10.0-base
 # Network Volume se models load karo
 RUN rm -rf /comfyui/models && ln -s /runpod-volume/models/ltx-2.5 /comfyui/models
 
-# LTX-2.5 custom nodes install karo
+# LTX-2.5 custom nodes install karo (YEH LINE ZAROORI HAI)
 RUN comfy-node-install comfyui-ltxvideo
 
 # user-provided inputs
